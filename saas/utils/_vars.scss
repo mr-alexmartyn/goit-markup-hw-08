@@ -1,0 +1,17 @@
+:root {
+    --primary-text-color: #757575; /* цвет вторичного текста */
+    --title-text-color: #212121; /* вторичнй цвет бренда  (и текста) */
+    --accent-color: #2196f3; /* основной цвет бренда */
+    --black-color: #000000; /* Черный цвет на сайте */
+    --bgd-color: #2f303a; /* цвет фона */
+    --white-color: #ffffff; /* белый цвет на сайте */
+    --transparent-white-color: rgba(255, 255, 255, 0.6); /* цвет текста в футере (с прозрачностью */
+    --team-bgd-color: #f5f4fa; /* цвет фона на секциях */
+    --border-color-cards: #eeeeee; /* Цвет рамок карточек*/
+    --border-color-main: #ececec; /* цвет основных рамок */
+    --active-button-background: #188ce8; /* цвет активности главной кнопки */
+    --primary-icon-color: #afb1b8; /* Цвет контуров иконок */
+  
+    --transition-timing: 250ms;
+    --cubic: cubic-bezier(0.4, 0, 0.2, 1);
+  }

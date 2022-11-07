@@ -1,0 +1,104 @@
+.footer {
+    background-color: var(--bgd-color);
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+  .footer-thumb {
+    display: flex;
+    align-items: baseline;
+  }
+  
+  .footer .logo {
+    margin-bottom: 20px;
+  }
+  .adress-thumb .logo__text--white {
+    color: var(--white-color);
+  }
+  .adress-thumb__list > .adress-thumb__item {
+    display: block;
+    margin-bottom: 9px;
+    margin-top: 0px;
+    max-height: 21px;
+    &:last-child {
+      margin-bottom: 0px;
+    }
+  }
+  .adress-thumb__map {
+    font-style: normal;
+    color: var(--white-color);
+    text-decoration: none;
+    line-height: 1.71;
+    transition: color var(--transition-timing) var(--cubic);
+    &:hover, &:focus {
+      color: var(--accent-color);
+  }
+}
+  .adress-thumb__mail,
+  .adress-thumb__tel {
+    font-style: normal;
+    color: var(--transparent-white-color);
+    text-decoration: none;
+    line-height: 1.71;
+    transition: color var(--transition-timing) var(--cubic);
+    &:hover, &:focus{
+    color: var(--accent-color);
+  }
+}
+ .join-thumb {
+    align-items: baseline;
+    margin-left: 70px;
+  }
+  .join-thumb__tittle, .mail-thumb__tittle {
+    color: var(--white-color);
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+  }
+  .join-thumb__list {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    gap: 10px;
+  }
+  .join-thumb__link {
+    @extend %some-align;
+    justify-content: center;
+    background: rgba(255, 255, 255, 0.1);
+    color: var(--white-color);
+    border-radius: 50%;
+    width: 44px;
+    height: 44px;
+    transition: color var(--transition-timing) var(--cubic),
+    background-color var(--transition-timing) var(--cubic);
+    &:hover, &:focus {
+      background: var(--accent-color);
+    }
+  }
+  .join-thumb__icon {
+    fill: currentColor;
+  }
+  .mail-thumb {
+    margin-left: auto;
+  }
+  .subscribe-form {
+    display: flex;
+    margin-top: 20px;
+  }
+  .subscribe-form__input {
+    width: 358px;
+    padding: 16px 15px;
+    background-color: var(--bgd-color);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+    border-radius: 4px;
+    color: var(--white-color);
+  }
+  .subscribe-form__img {
+    display: block;
+    width: 24px;
+    height: 24px;
+    margin-left: 10px;
+    fill: var(--white-color);
+  }
