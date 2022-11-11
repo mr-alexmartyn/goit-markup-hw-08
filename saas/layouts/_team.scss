@@ -1,19 +1,23 @@
 .team {
     @extend %section;
     background-color: var(--team-bgd-color);
-    padding: 90px 0px;
   }
   .team__title {
     color: var(--title-text-color);
     font-weight: 700;
     font-size: 36px;
     line-height: 1.16;
-    margin-bottom: 50px;
     text-align: center;
+    margin-bottom: 30px;
+
+    @include desktop {
+    margin-bottom: 50px;
+    }
   }
   .team__list {
     display: flex;
     flex-wrap: wrap;
+    gap: 30px;
   }
   .card {
     background: var(--white-color);
@@ -22,11 +26,21 @@
     border-radius: 0px 0px 4px 4px;
   }
   .team__list > .team__item {
-    flex-basis: calc(100% / 4 - 30px);
+ /*    flex-basis: calc(100% / 4 - 30px);
     &:not(:last-child) {
       margin-right: 30px;
+    } */
+    max-width: 100%;
+    width: 100%;
+
+    @include tablet {
+      width: calc((100% - 30px)/2)
+    }
+    @include desktop {
+      width: calc((100% - 90px)/4)
     }
   }
+  
   .team__discr {
     padding-top: 30px;
     padding-bottom: 30px;

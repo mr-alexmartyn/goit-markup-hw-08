@@ -1,11 +1,13 @@
 @import './utils/vars';
 @import './base/reset';
 @import './utils/plaseholders';
+@import './utils/mixin';
 @import './components/button';
 @import './components/container';
 
 
 @import './layouts/header';
+@import './layouts/mob-menu';
 @import './layouts/hero';
 @import './layouts/features';
 @import './layouts/our-work';

@@ -1,6 +1,8 @@
 .work {
     padding-bottom: 94px;
     padding-top: 0px;
+    @media screen and (max-width: 1199px) {display: none;}
+
   }
   .work__title {
     color: var(--title-text-color);
