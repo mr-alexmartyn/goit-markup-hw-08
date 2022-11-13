@@ -105,11 +105,13 @@
 }
 
 .menu-close-btn {
+    display: flex;
+    flex-direction: column;
     margin-left: auto;
     background-color: transparent;
     border: none;
-
 }
+
 
 .mob-menu__item:not(:last-child) {
     margin-bottom: 32px;
@@ -129,20 +131,6 @@
 
 .mob-current {
     color: #2196f3;
-
-/* &::after {
-  position: absolute;
- content: '';
- display: block;
-
- left: 0;
- bottom: 0px;
-
-  width: 100%;
-  background-color: #2196f3;
-
-
-} */
 }
 
 .mob-menu__contact--tel {
